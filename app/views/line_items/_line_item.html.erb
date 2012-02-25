@@ -1,6 +1,8 @@
 
 <tr valign="top">
 	<td><%= line_item.quantity%>&times;</td>
-	<td><%= line_item.product.title %></td>
+	<td>
+		<%= link_to line_item.product.title, :controller => "products", :action => "show", :id => line_item.product.id%>
+	</td>
 	<td><%= number_to_currency(line_item.total_price)%>
 </tr>
