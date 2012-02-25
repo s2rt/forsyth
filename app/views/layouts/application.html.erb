@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<title>Stuart Forsyth (.com)</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<%= stylesheet_link_tag "bootstrap", :media => "all" %>
+	<%= javascript_include_tag "application" %>
+  	
+	<style type="text/css">
+	      	body {
+		        padding-top: 60px;
+		        padding-bottom: 40px;
+		    }
+		      .sidebar-nav {
+		        padding: 9px 0;
+		    }
+	
+			.products {
+		  	table {
+		  	border-collapse: collapse;
+		  	}
+		  	
+		  	table tr td {
+		  	padding: 5px;
+		  	vertical-align: top;
+		  	}
+		  	
+		  	.list_image {
+		  	width: 60px;
+		  	height: 70px;
+		  	}
+		  	
+		  	.list_description 
+			{
+		  		width: 60%;
+		  	
+			  	dl {
+			  	margin: 0;
+			  	}
+		  	
+			  	dt {
+			  	color: #244;
+			  	font-weight: bold;
+			  	font-size: larger;
+			  	}
+		  	
+			  	dd {
+			  	margin: 0;
+			  	}
+		  	}
+		
+		  .list_actions {
+		  	font-size: x-small;
+		  	text-align: right;
+		  	padding-left: 1em;
+		  	}
+		  	
+		  .list_line_even {
+		  	background: #e0f8f8;
+		  	}
+		  	
+		  .list_line_odd {
+		  	background: #f8b0f8;
+		  	}
+	</style>
+
+	<%= stylesheet_link_tag    "bootstrap-responsive", :media => "all" %>
+	<%= csrf_meta_tags %>
+	
+</head>
+<body>
+
+<%= yield %>
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <%= javascript_include_tag "jquery" %>
+
+<!--
+  <script src="../assets/js/bootstrap-transition.js"></script>
+  <script src="../assets/js/bootstrap-alert.js"></script>
+  <script src="../assets/js/bootstrap-modal.js"></script>
+  <script src="../assets/js/bootstrap-dropdown.js"></script>
+  <script src="../assets/js/bootstrap-scrollspy.js"></script>
+  <script src="../assets/js/bootstrap-tab.js"></script>
+  <script src="../assets/js/bootstrap-tooltip.js"></script>
+  <script src="../assets/js/bootstrap-popover.js"></script>
+  <script src="../assets/js/bootstrap-button.js"></script>
+  <script src="../assets/js/bootstrap-collapse.js"></script>
+  <script src="../assets/js/bootstrap-carousel.js"></script>
+  <script src="../assets/js/bootstrap-typeahead.js"></script>
+-->
+</body>
+</html>
