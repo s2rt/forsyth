@@ -1,51 +1,21 @@
-<div class="navbar navbar-fixed-top">
-     <div class="navbar-inner">
-       <div class="container-fluid">
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </a>
-         <a class="brand" href="#">Stuart Forsyth > Product</a>
-         <div class="nav-collapse">
-           <ul class="nav">
-             <li class="active"><a href="/">Home</a></li>
-             <li><%= link_to "About", about_path %></li>
-             </ul>
-           <p class="navbar-text pull-right">Logged in as <a href="#">Stuart</a></p>
-         </div><!--/.nav-collapse -->
-       </div>
-     </div>
-   </div>
+<div class="hero-unit">
+	<p id="notice"><%= notice %></p>
 
-<div class="container-fluid">
-     <div class="row-fluid">
-       <div class="span2">
-		&nbsp;
-	   </div>
+	<h1><%= @product.title%></h1>
+	<p><%= image_tag(@product.image_url, :style => "float:left;padding:10px;") %><%= sanitize(@product.description)%></p>
 
-		<div class="span8">
-			<div class="hero-unit">
-			<p id="notice"><%= notice %></p>
 
-			<h1><%= @product.title%></h1>
-			<p><%= image_tag(@product.image_url, :style => "float:left;padding:10px;") %><%= sanitize(@product.description)%></p>
-			
-
-			<p>
-			  <b>Price:</b>
-<%= number_to_currency(@product.price) %> <br/>
-<%= button_to 'Add to Cart', line_items_path(product_id: @product) %>
-</p>
-<p>
+	<p>
+	<b>Price:</b>
+	<%= number_to_currency(@product.price) %> <br/>
+	<%= button_to 'Add to Cart', line_items_path(product_id: @product) %>
+	</p>
+	<p>
 	<a href="https://twitter.com/share" class="twitter-share-button" data-text="<%= @product.title%>" data-via="s2rt" data-size="large">Tweet</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
+	</p>
 
-			<%= link_to 'Edit', edit_product_path(@product) %> |
-			<%= link_to 'Back', products_path %>
-			</div>
-		</div>
-		<div class="span2">
-			&nbsp;
-		 </div>
+	<%= link_to 'Edit', edit_product_path(@product) %> |
+	<%= link_to 'Back', products_path %>
+</div>
+

@@ -77,7 +77,73 @@
 </head>
 <body>
 
+	<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+	<div class="container-fluid">
+	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</a>
+	<a class="brand" href="#">Stuart Forsyth (.com)</a>
+	<div class="nav-collapse">
+	<ul class="nav">
+	<li class="active"><a href="/">Home</a></li>
+	<li><%= link_to "About", about_path %></li>
+	</ul>
+	<p class="navbar-text pull-right">Logged in as <a href="#">Stuart</a></p>
+	</div><!--/.nav-collapse -->
+	</div>
+	</div>
+	</div>
+
+	<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span2">
+			<div class="well sidebar-nav">
+				<ul class="nav nav-list">
+				<li class="nav-header">In a sentence</li>
+				<li>Player of games, juggler or words, writer, technology pundit and mostly sentient primate.</li>
+				<li><br>
+				<%= image_tag("stuartprofile.jpg") %></li>
+
+
+				<li class="nav-header">Social</li>
+				<!--<li class="active"><a href="#">Link</a></li>-->
+				<li> <a href="https://twitter.com/s2rt" class="twitter-follow-button" data-show-count="false">Follow @s2rt on Twitter</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+				<li><a href="http://stuartforsyth.tumblr.com/" target="_blank">Tumblr</a></li>
+				<li><a href="https://plus.google.com/101822104326818004121/posts" target="_blank">Google+</a></li>
+				<li class="nav-header">Feedback</li>
+				<li><a href="http://stuartforsyth.tumblr.com/ask" target="_blank">Ask me a question</a></li>
+				</ul>
+			</div><!--/.well -->
+		</div><!--/span-->
+
+	<div class="span7">
+
 <%= yield %>
+
+</div><!--/span-->
+
+<div class="span2">
+	<div class="well sidebar-nav">
+		<div id="cart">
+		<%= render @cart%>
+		</div>
+	</div>
+</div>
+</div><!--/row-->
+
+<hr>
+
+<footer>
+<p>&copy; Company 2012</p>
+</footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
 
   <!-- Placed at the end of the document so the pages load faster -->
  <%= javascript_include_tag "jquery" %>
