@@ -17457,3 +17457,1753 @@ Served asset /stuartprofile.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 13:13:13 +1100
 Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 14:03:32 +1100
+Processing by HomeController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY id DESC LIMIT 4[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 190ms (Views: 157.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/stuartprofile.jpg" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /stuartprofile.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:03:33 +1100
+Served asset /terra300.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (199.8ms)
+Completed 200 OK in 262ms (Views: 235.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:11:34 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "product_id"=>"2"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (71.9ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Sat, 25 Feb 2012 03:11:37 UTC +00:00], ["updated_at", Sat, 25 Feb 2012 03:11:37 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mLineItem Load (0.2ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2 AND "line_items"."product_id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "line_items" ("cart_id", "created_at", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["cart_id", 2], ["created_at", Sat, 25 Feb 2012 03:11:37 UTC +00:00], ["product_id", 2], ["quantity", 1], ["updated_at", Sat, 25 Feb 2012 03:11:37 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1
+Redirected to http://localhost:3000/carts/2
+Completed 302 Found in 173ms (ActiveRecord: 75.1ms)
+
+
+Started GET "/carts/2" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCart Load (0.2ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  Rendered carts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:37 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/7" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "7"]]
+Attempt to access an invalid cart 7
+Redirected to http://localhost:3000/store
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:11:42 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "product_id"=>"1"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2 AND "line_items"."product_id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "line_items" ("cart_id", "created_at", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["cart_id", 2], ["created_at", Sat, 25 Feb 2012 03:11:50 UTC +00:00], ["product_id", 1], ["quantity", 1], ["updated_at", Sat, 25 Feb 2012 03:11:50 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1
+Redirected to http://localhost:3000/carts/2
+Completed 302 Found in 7ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/carts/2" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:11:50 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/2" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mLineItem Load (0.2ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:48 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:14:49 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:14:53 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/2" for 127.0.0.1 at 2012-02-25 14:14:57 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:14:58 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/2" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:33 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started DELETE "/carts/2" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "id"=>"2"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 2[0m
+  [1m[35mSQL (18.8ms)[0m  DELETE FROM "line_items" WHERE "line_items"."id" = ?  [["id", 6]]
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "line_items" WHERE "line_items"."id" = ?[0m  [["id", 7]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "carts" WHERE "carts"."id" = ?  [["id", 2]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/carts
+Completed 302 Found in 25ms (ActiveRecord: 20.5ms)
+
+
+Started GET "/carts" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Processing by CartsController#index as HTML
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" 
+  Rendered carts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:44 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:52 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/2" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Attempt to access an invalid cart 2
+Redirected to http://localhost:3000/store
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:55 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:56 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:16:56 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:16:56 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:16:56 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Processing by HomeController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY id DESC LIMIT 4[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 36ms (Views: 22.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stuartprofile.jpg" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /stuartprofile.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:19:01 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 47ms (Views: 20.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:05 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started DELETE "/carts/1" for 127.0.0.1 at 2012-02-25 14:19:09 +1100
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "id"=>"1"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Sat, 25 Feb 2012 03:19:09 UTC +00:00], ["updated_at", Sat, 25 Feb 2012 03:19:09 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 3
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "carts" WHERE "carts"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Completed 500 Internal Server Error in 203ms
+
+NameError (undefined local variable or method `home_url' for #<CartsController:0x007f9ae48464e0>):
+  app/controllers/carts_controller.rb:85:in `block (2 levels) in destroy'
+  app/controllers/carts_controller.rb:84:in `destroy'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 35ms (Views: 30.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:29 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/carts/1" for 127.0.0.1 at 2012-02-25 14:19:31 +1100
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "id"=>"1"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Sat, 25 Feb 2012 03:19:31 UTC +00:00], ["updated_at", Sat, 25 Feb 2012 03:19:31 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 4
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "carts" WHERE "carts"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/store
+Completed 302 Found in 8ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2012-02-25 14:19:31 +1100
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 33ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:31 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:31 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:19:32 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 14:19:42 +1100
+Processing by HomeController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY id DESC LIMIT 4
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stuartprofile.jpg" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /stuartprofile.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:19:43 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 60ms (Views: 53.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:27:31 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at 2012-02-25 14:27:32 +1100
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "product_id"=>"2"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Sat, 25 Feb 2012 03:27:33 UTC +00:00], ["updated_at", Sat, 25 Feb 2012 03:27:33 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5 AND "line_items"."product_id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "line_items" ("cart_id", "created_at", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["cart_id", 5], ["created_at", Sat, 25 Feb 2012 03:27:33 UTC +00:00], ["product_id", 2], ["quantity", 1], ["updated_at", Sat, 25 Feb 2012 03:27:33 UTC +00:00]]
+  [1m[35m (18.7ms)[0m  commit transaction
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 5 LIMIT 1[0m
+Redirected to http://localhost:3000/carts/5
+Completed 302 Found in 42ms (ActiveRecord: 21.0ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mCart Load (0.2ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:27:33 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:30:30 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  Rendered carts/show.html.erb within layouts/application (104.1ms)
+Completed 500 Internal Server Error in 106ms
+
+ActionView::Template::Error (undefined method `total_price' for #<Cart:0x007f9ae32d47d8>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(@cart.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151606537680'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151606537680'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.3ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.2ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:33:29 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (45.1ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (undefined method `quantity' for #<BigDecimal:7f9ae2dd5548,'0.499E1',18(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(@cart.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/models/cart.rb:16:in `block in total_price'
+  app/models/cart.rb:16:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151606537680'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151606537680'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:34:56 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  Rendered carts/show.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `quantity' for #<BigDecimal:7f9ae69c0da0,'0.499E1',18(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(item.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:34:58 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `quantity' for #<BigDecimal:7f9ae6d59a48,'0.499E1',18(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(item.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at 2012-02-25 14:35:47 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  Rendered carts/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `quantity' for #<BigDecimal:7f9ae6f47170,'0.99E0',9(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(item.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Processing by HomeController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY id DESC LIMIT 4
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stuartprofile.jpg" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /stuartprofile.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:35:52 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:35:53 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at 2012-02-25 14:35:55 +1100
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "product_id"=>"2"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5 AND "line_items"."product_id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mUPDATE "line_items" SET "quantity" = 2, "updated_at" = '2012-02-25 03:35:55.009320' WHERE "line_items"."id" = 8[0m
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mCart Load (0.2ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 5 LIMIT 1[0m
+Redirected to http://localhost:3000/carts/5
+Completed 302 Found in 31ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:35:55 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `quantity' for #<BigDecimal:7f9ae2bb2ea0,'0.499E1',18(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(item.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:38:01 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  Rendered carts/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `quantity' for #<BigDecimal:7f9ae6b69ee0,'0.499E1',18(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(item.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:38:03 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `quantity' for #<BigDecimal:7f9ae323c870,'0.499E1',18(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(item.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:38:22 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  Rendered carts/show.html.erb within layouts/application (44.0ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (undefined method `item' for #<BigDecimal:7f9ae2f44bb8,'0.499E1',18(45)>):
+    37: 	<tr>
+    38: 		<td><%= item.quantity%>&times;</td>
+    39: 		<td><%= item.product.title %></td>
+    40: 		<td><%= number_to_currency(item.total_price)%>
+    41: 	</tr>
+    42: 	<% end %>
+    43: 	<tr>
+  app/models/line_item.rb:6:in `total_price'
+  app/views/carts/show.html.erb:40:in `block in _app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/views/carts/show.html.erb:36:in `_app_views_carts_show_html_erb__2959562512033182963_70151637840120'
+  app/controllers/carts_controller.rb:22:in `show'
+
+
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/stuartforsyth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:38:52 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:38:53 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Processing by HomeController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY id DESC LIMIT 4[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stuartprofile.jpg" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /stuartprofile.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:38:57 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:38:59 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"TnEK9Gm1aZFiRMCO+BUr9Ok8nxqL6c1cLIwemhIiAbM=", "product_id"=>"1"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5 AND "line_items"."product_id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "line_items" ("cart_id", "created_at", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["cart_id", 5], ["created_at", Sat, 25 Feb 2012 03:39:01 UTC +00:00], ["product_id", 1], ["quantity", 1], ["updated_at", Sat, 25 Feb 2012 03:39:01 UTC +00:00]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 5 LIMIT 1
+Redirected to http://localhost:3000/carts/5
+Completed 302 Found in 9ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 5
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  Rendered carts/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:39:01 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Processing by HomeController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY id DESC LIMIT 4[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stuartprofile.jpg" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /stuartprofile.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/terra300.jpg" for 127.0.0.1 at 2012-02-25 14:39:38 +1100
+Served asset /terra300.jpg - 304 Not Modified (0ms)

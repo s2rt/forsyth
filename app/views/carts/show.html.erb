@@ -1,10 +1,55 @@
+<div class="navbar navbar-fixed-top">
+     <div class="navbar-inner">
+       <div class="container-fluid">
+         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </a>
+         <a class="brand" href="#">Stuart Forsyth > Product</a>
+         <div class="nav-collapse">
+           <ul class="nav">
+             <li class="active"><a href="/">Home</a></li>
+             <li><%= link_to "About", about_path %></li>
+             </ul>
+           <p class="navbar-text pull-right">Logged in as <a href="#">Stuart</a></p>
+         </div><!--/.nav-collapse -->
+       </div>
+     </div>
+   </div>
+
+<div class="container-fluid">
+     <div class="row-fluid">
+       <div class="span2">
+		&nbsp;
+	   </div>
+
+		<div class="span8">
+		
+		
 <% if notice %>
 <p id="notice" ><%= notice %></p>
 <% end %>
 
-<h2>Your Pragmatic Cart</h2>
-<ul>
-<% @cart.line_items.each do |item| %>
-<li><%= item.quantity%>&times;<%= item.product.title %></li>
-<% end %>
-</ul>
+<div>Your Cart</div>
+<table border="0" cellspacing="5" cellpadding="5">
+	<% @cart.line_items.each do |item| %>
+	<tr>
+		<td><%= item.quantity%>&times;</td>
+		<td><%= item.product.title %></td>
+		<td><%= number_to_currency(item.total_price)%>
+	</tr>
+	<% end %>
+	<tr>
+		<td colspan="2">Total</td>
+		<td><%=number_to_currency(@cart.total_price)%>
+	</tr>
+</table>
+<h2>Your Cart</h2>
+
+<%= button_to 'Empty Cart', @cart, method: :delete, confirm: 'Are you sure?'%>
+
+</div>
+<div class="span2">
+	&nbsp;
+ </div>
