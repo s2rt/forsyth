@@ -10,6 +10,8 @@
 
 	<%= stylesheet_link_tag "bootstrap", :media => "all" %>
 	<%= javascript_include_tag "application" %>
+	
+	<%= javascript_include_tag "bootstrap" %>
   	
 	<style type="text/css">
 	      	body {
@@ -78,7 +80,8 @@
 <%= yield %>
 
   <!-- Placed at the end of the document so the pages load faster -->
-  <%= javascript_include_tag "jquery" %>
+ <%= javascript_include_tag "jquery" %>
+
 
 <!--
   <script src="../assets/js/bootstrap-transition.js"></script>

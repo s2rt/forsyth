@@ -31,7 +31,7 @@
 <p id="notice" ><%= notice %></p>
 <% end %>
 
-<div>Your Cart</div>
+<h2>Your Cart</h2>
 <table border="0" cellspacing="5" cellpadding="5">
 	<% @cart.line_items.each do |item| %>
 	<tr>
@@ -41,11 +41,18 @@
 	</tr>
 	<% end %>
 	<tr>
-		<td colspan="2">Total</td>
-		<td><%=number_to_currency(@cart.total_price)%>
+		<td colspan="2"><strong>Total</strong></td>
+		<td><strong><%=number_to_currency(@cart.total_price)%></strong>
 	</tr>
+	<tr>
+		<td colspan="3" style="text-align:center;">
+			<div class="alert alert-block alert-success fade in" >
+				<%= @cart.cups_of_coffee%> Cups of coffee
+			</div>
+		</td>
+	<tr>
 </table>
-<h2>Your Cart</h2>
+
 
 <%= button_to 'Empty Cart', @cart, method: :delete, confirm: 'Are you sure?'%>
 
