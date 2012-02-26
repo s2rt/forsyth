@@ -10,5 +10,14 @@ class ApplicationController < ActionController::Base
   	session[:cart_id] = cart.id
   	cart
 	end
+	
+	def posts_for(feed_url, length=2, perform_validation=false)
+    posts = []
+    open(feed_url) do |rss|
+      posts = RSS::Parser.parse(rss, perform_validation).items
+    end
+    posts[0..length - 1] if posts.size > length
+  end
+
     	
 end

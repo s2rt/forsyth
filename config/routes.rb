@@ -1,4 +1,6 @@
 Forsyth::Application.routes.draw do
+  get "rssfeed/index"
+
   resources :line_items
 
   resources :carts
@@ -16,6 +18,7 @@ Forsyth::Application.routes.draw do
   #   match 'products/:id' => 'catalog#view'
   match 'about' => 'home#about'
   match 'store' => 'store#index'
+
   
   # Keep in mind you can assign values other than :controller and :action
 

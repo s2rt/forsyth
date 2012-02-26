@@ -7,9 +7,12 @@ class HomeController < ApplicationController
     #of a featured product
       @featured_product = Product.find(:last)
       @cart = current_cart
+      @latestposts = posts_for('http://stuartforsyth.tumblr.com/rss', 8, false)
+
   end
   
   def about
+    @cart = current_cart
   end
   
 end
