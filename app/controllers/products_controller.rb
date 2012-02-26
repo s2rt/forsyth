@@ -41,6 +41,7 @@ class ProductsController < ApplicationController
   # GET /products/1/edit
   def edit
     @product = Product.find(params[:id])
+     @cart = current_cart
   end
 
   # POST /products

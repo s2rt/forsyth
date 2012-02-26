@@ -1,4 +1,6 @@
 Forsyth::Application.routes.draw do
+  resources :orders
+
   get "rssfeed/index"
 
   resources :line_items

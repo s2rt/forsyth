@@ -1,3 +1,6 @@
+require 'rss/2.0'
+require 'open-uri'
+
 class ApplicationController < ActionController::Base
   protect_from_forgery
   
